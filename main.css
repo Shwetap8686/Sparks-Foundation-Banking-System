@@ -1,0 +1,87 @@
+
+/***********************************************************/
+.table, .table td,.table th{
+    border :1px solid black;
+   
+}
+
+.table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table th{
+    background-color: rgb(146, 5, 111);
+    color:white;
+    font-size: larger;
+}
+
+.table tr:nth-child(even){
+    background-color: rgb(240, 234, 240);
+}
+
+.table tr:hover{
+    background-color: rgb(230, 224, 230);
+}
+
+.form-group input, .form-group textarea, .form-group select{
+    border-radius: 20px;
+    padding-left: 50x;
+    border: 1px solid rgb(37, 4, 128);
+}
+
+
+
+
+/******************************** Transfer.php ***************************************/
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+
+.chapterCard{
+    border-radius: 20px;
+    background-image:rgb(90, 89, 89);
+    padding: 4%;
+   
+}
+
+
+.chapterCard:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 0 5px 0;
+}
+
+
+input, textarea{
+    padding: 5px;
+}
+
+.dropClass{
+    padding: 5px;
+}
+
+#submit_money{
+    border: 1px solid black;
+    padding: 1% 5% 1% 5%;
+    background-color: rgb(43, 14, 121);
+    color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+#submit_money:hover{
+    box-shadow: 2px 3px black;
+    transform: translateY(-3%);
+    font-weight: bold;
+}
+
+.chapterCard input, .chapterCard select, .chapterCard label, .chapterCard select option{
+    font-weight: 400;
+    color: black;
+}
